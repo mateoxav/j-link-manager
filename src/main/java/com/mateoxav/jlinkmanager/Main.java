@@ -1,17 +1,18 @@
 package com.mateoxav.jlinkmanager;
 import javax.swing.*;
 import com.formdev.flatlaf.themes.FlatMacDarkLaf;
+import com.mateoxav.jlinkmanager.view.MainView;
 
 public class Main {
     public static void main(String[] args) {
 
         FlatMacDarkLaf.setup();
 
-//        SwingUtilities.invokeLater(() -> {
+            SwingUtilities.invokeLater(() -> {
 //            GestorEnlaces gestor = new GestorEnlaces();
-//            VistaPrincipal vista = new VistaPrincipal();
+              MainView view = new MainView();
 //            new Controlador(gestor, vista);
-//            vista.setVisible(true);
-//        });
+              view.setVisible(true);
+          });
     }
 }
