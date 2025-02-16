@@ -1,6 +1,8 @@
 package com.mateoxav.jlinkmanager;
 import javax.swing.*;
 import com.formdev.flatlaf.themes.FlatMacDarkLaf;
+import com.mateoxav.jlinkmanager.controller.Controller;
+import com.mateoxav.jlinkmanager.model.LinkManager;
 import com.mateoxav.jlinkmanager.view.MainView;
 
 public class Main {
@@ -9,9 +11,9 @@ public class Main {
         FlatMacDarkLaf.setup();
 
             SwingUtilities.invokeLater(() -> {
-//            GestorEnlaces gestor = new GestorEnlaces();
+              LinkManager manager = new LinkManager();
               MainView view = new MainView();
-//            new Controlador(gestor, vista);
+              new Controller(manager, view);
               view.setVisible(true);
           });
     }
