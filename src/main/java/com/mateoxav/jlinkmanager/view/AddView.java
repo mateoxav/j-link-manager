@@ -85,8 +85,8 @@ public class AddView extends JDialog {
     }
 
     public boolean isAccepted() { return accepted; }
-    public String getNuevoTitulo() { return titleTxt.getText(); }
-    public String getNuevaURL() { return urlTxt.getText(); }
-    public String getNuevaCategoria() { return categoryTxt.getText(); }
-    public String getNuevasNotas() { return notesTxt.getText(); }
+    public String getNewTitle() { return titleTxt.getText(); }
+    public String getNewURL() { return urlTxt.getText(); }
+    public String getNewCategory() { return categoryTxt.getText(); }
+    public String getNewNotes() { return notesTxt.getText(); }
 }
