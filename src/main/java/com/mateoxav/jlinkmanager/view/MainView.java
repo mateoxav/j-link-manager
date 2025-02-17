@@ -13,7 +13,7 @@ public class MainView extends JFrame {
     private JLabel titleLbl, urlLbl, categoryLbl, notesLbl;
 
     public MainView() {
-        setTitle("J Link Manager - Made By Mateo Xavier");
+        setTitle("JLink Manager - Developed by Mateo Xavier");
         setSize(600, 400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
