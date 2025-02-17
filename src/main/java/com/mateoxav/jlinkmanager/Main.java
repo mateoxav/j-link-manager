@@ -10,11 +10,11 @@ public class Main {
 
         FlatMacDarkLaf.setup();
 
-            SwingUtilities.invokeLater(() -> {
-              LinkManager manager = new LinkManager();
-              MainView view = new MainView();
-              new Controller(manager, view);
-              view.setVisible(true);
-          });
+        SwingUtilities.invokeLater(() -> {
+            LinkManager manager = new LinkManager();
+            MainView view = new MainView();
+            new Controller(manager, view);
+            view.setVisible(true);
+        });
     }
 }
