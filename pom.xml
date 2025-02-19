@@ -46,7 +46,6 @@
         </resources>
 
         <plugins>
-            <!-- Plugin para compilar y generar el JAR ejecutable -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -60,7 +59,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Plugin para crear un JAR con todas las dependencias incluidas -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
