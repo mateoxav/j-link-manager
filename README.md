@@ -25,16 +25,28 @@ JLink Manager is a desktop application developed in **Java Swing** that allows y
 - 🎭 **Interface Style**: FlatLaf (`FlatMacDarkLaf`)
 
 ### 📌 Installation and Usage.
+### Option 1) Download from github
+1. **Go to [Releases](https://github.com/mateoxav/j-link-manager/releases/tag/0.1.0)**.
 
+   If you are using **Windows** download **JLinkManager.exe** and run it.
+   
+   Download **j-link-manager-0.1.0-RELEASE.jar** if you are using **Mac/Linux**, and follow the step below. 
+
+3. **Run the Application**(Make sure Java is installed): 
+   ```sh
+   java -jar j-link-manager-0.1.0-RELEASE.jar
+   ```
+### Option 2) Compile source code
 1. **Clone Repository**:
    ```sh
    git clone https://github.com/mateoxav/j-link-manager.git
+   cd j-link-manager
    ```
-2. **Compile with Maven**:
+2. **Compile with Maven** (Make sure Maven is installed):
    ```sh
    mvn clean package
    ```
 3. **Run the Application**:
    ```sh
-   java -jar target/JLinkManager.jar
+   java -jar target/j-link-manager-0.1.0-RELEASE.jar
    ```
